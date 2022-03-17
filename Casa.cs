@@ -8,7 +8,7 @@ namespace ProyectoPropiedadesCodigoLimpio
 {
     internal class Casa:Terreno
     {
-        
+        //hola
         private int _pisos;
         private int _habitaciones;
         private int _baños;
