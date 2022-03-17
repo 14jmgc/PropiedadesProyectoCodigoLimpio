@@ -8,7 +8,7 @@ namespace ProyectoPropiedadesCodigoLimpio
 {
     internal class Casa:Terreno
     {
-        //hola
+
         private int _pisos;
         private int _habitaciones;
         private int _baños;
@@ -18,7 +18,7 @@ namespace ProyectoPropiedadesCodigoLimpio
         public int Habitaciones { get => _habitaciones; set => _habitaciones = value; }
         public int Baños { get => _baños; set => _baños = value; }
         public int Garaje { get => _garaje; set => _garaje = value; }
-
+        
         public Casa() : base()
         {
             _pisos = 1;
