@@ -16,14 +16,12 @@ namespace ProyectoPropiedadesCodigoLimpio
             List<Terreno> listaTerrenos = new List<Terreno>();
             List<Casa> listaCasas = new List<Casa>();
             List<Finca> listaFincas = new List<Finca>();
+            List<SalonDeEventos> listaSalones = new List<SalonDeEventos>();
 
             while (!salir)
             {
                 try
                 {
-
-
-
                     Console.WriteLine("Menu: ");
                     Console.WriteLine("1. Propiedades.");
                     Console.WriteLine("2. Citas");
@@ -211,8 +209,36 @@ namespace ProyectoPropiedadesCodigoLimpio
 
                                                         break;
                                                     case 4:
+                                                        Console.WriteLine("Ingrese la dirección:  ");
+                                                        string direccionSalonDeEventos = (Console.ReadLine());
+                                                        Console.WriteLine("Ingrese el dueño:  ");
+                                                        string dueñoSalonDeEventos = (Console.ReadLine());
+                                                        Console.WriteLine("Ingrese el nombre:  ");
+                                                        string nombreSalonDeEventos = (Console.ReadLine());
+                                                        Console.WriteLine("Ingrese el precio:  ");
+                                                        long precioSalonDeEventos = Convert.ToInt64(Console.ReadLine());
+                                                        Console.WriteLine("Ingrese el estado:  ");
+                                                        string estadoSalonDeEventos = (Console.ReadLine());
+                                                        Console.WriteLine("Ingrese el metraje:  ");
+                                                        long metrajeSalonDeEventos = Convert.ToInt64(Console.ReadLine());
+                                                        Console.WriteLine("Ingrese la cantidad de baños:  ");
+                                                        int bañosSalonDeEventos = Convert.ToInt16(Console.ReadLine());
+                                                        listaSalones.Add(new SalonDeEventos()
 
-                                                        break;
+                                                        {
+                                                            Direccion = direccionSalonDeEventos,
+                                                            Dueño = dueñoSalonDeEventos,
+                                                            Nombre = nombreSalonDeEventos,
+                                                            Precio = precioSalonDeEventos,
+                                                            Estado = estadoSalonDeEventos,
+                                                            Metraje = metrajeSalonDeEventos,
+                                                            Baños = bañosSalonDeEventos
+                                                        });
+
+                                                        Console.WriteLine("Salon De Eventos agregado.");
+                                                        Console.ReadKey();
+
+                                                    break;
 
                                                 }
                                             
@@ -305,7 +331,23 @@ namespace ProyectoPropiedadesCodigoLimpio
 
                                                     break;
                                                 case 4:
+                                                    Console.WriteLine("Los salones disponibles son: ");
 
+
+                                                    for (int i = 0; i < listaSalones.Count; i++)
+                                                    {
+                                                        Console.WriteLine(
+                                                            "Direccion: " + listaSalones[i].Direccion +
+                                                            " Dueño: " + listaSalones[i].Dueño +
+                                                            " Nombre de la propiedad: " + listaSalones[i].Nombre +
+                                                            " Precio: "
+                                                            + listaSalones[i].Precio +
+                                                            " Estado: " + listaSalones[i].Estado +
+                                                            " Metraje: " + listaSalones[i].Metraje +
+                                                            " Baños: " + listaSalones[i].Baños);
+                                                    }
+
+                                                    Console.ReadKey();
                                                     break;
                                             }
 
