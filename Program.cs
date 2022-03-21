@@ -12,29 +12,29 @@ namespace ProyectoPropiedadesCodigoLimpio
         {
             bool salir = false;
 
-
+            #region Atributos
             List<Terreno> listaTerrenos = new List<Terreno>();
             List<Casa> listaCasas = new List<Casa>();
             List<Finca> listaFincas = new List<Finca>();
             List<SalonDeEventos> listaSalones = new List<SalonDeEventos>();
-
+            #endregion
             while (!salir)
             {
                 try
                 {
                     Console.WriteLine("Menu: ");
                     Console.WriteLine("1. Propiedades.");
-                    Console.WriteLine("2. Citas");
-                    Console.WriteLine("3. Salir\n");
+                    Console.WriteLine("2. Salir\n");
                     Console.WriteLine("Digite la opcion seleccionada: ");
                     int menu = Convert.ToInt16(Console.ReadLine());
 
                     switch (menu)
-                    {
+                    {   
                         case 1:
-
+                            #region Propiedades
                             bool propiedad = false;
                             while (!propiedad)
+                            
                             {
                                 try
                                 {
@@ -54,13 +54,15 @@ namespace ProyectoPropiedadesCodigoLimpio
                                     switch (menuPropiedades)
                                     {
                                         case 0:
+                                            #region Devolverse
                                             Console.WriteLine("Has elegido devolverter al menu anterior.");
                                             propiedad = true;
                                             Console.ReadKey();
                                             break;
+                                            #endregion
 
                                         case 1:
-                                            
+                                            #region Agregar propiedad
                                                 Console.WriteLine("¿Que tipo de propiedad desea agregar?");
                                                 Console.WriteLine("1. Terreno");
                                                 Console.WriteLine("2. Casa/Apartamento");
@@ -80,7 +82,7 @@ namespace ProyectoPropiedadesCodigoLimpio
 
 
                                                     case 1:
-
+                                                        #region Terreno
                                                         Console.WriteLine("Ingrese la dirección:  ");
                                                         string direccionTerreno = (Console.ReadLine());
                                                         Console.WriteLine("Ingrese el dueño:  ");
@@ -109,9 +111,9 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                         Console.ReadKey();
 
                                                         break;
-
+                                                        #endregion
                                                     case 2:
-
+                                                        #region Casa/Apartamento
                                                         Console.WriteLine("Ingrese la dirección:  ");
                                                         string direccionCasa = (Console.ReadLine());
                                                         Console.WriteLine("Ingrese el dueño:  ");
@@ -151,9 +153,9 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                         Console.ReadKey();
 
                                                         break;
-
+                                                        #endregion
                                                     case 3:
-
+                                                        #region Finca
                                                         Console.WriteLine("Ingrese la dirección:  ");
                                                         string direccionFinca = (Console.ReadLine());
                                                         Console.WriteLine("Ingrese el dueño:  ");
@@ -208,7 +210,9 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                         Console.ReadKey();
 
                                                         break;
+                                                        #endregion
                                                     case 4:
+                                                        #region Salon de eventos
                                                         Console.WriteLine("Ingrese la dirección:  ");
                                                         string direccionSalonDeEventos = (Console.ReadLine());
                                                         Console.WriteLine("Ingrese el dueño:  ");
@@ -237,13 +241,13 @@ namespace ProyectoPropiedadesCodigoLimpio
 
                                                         Console.WriteLine("Salon De Eventos agregado.");
                                                         Console.ReadKey();
-
-                                                    break;
-
+                                                        
+                                                        break;
+                                                        #endregion
                                                 }
                                             
                                         break;
-                                           
+                                           #endregion
 
                                         case 2:
 
@@ -254,7 +258,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                             break;
 
                                         case 4:
-
+                                            #region Mostar
                                             Console.WriteLine("¿Que propiedades desea mostrar?");
                                             Console.WriteLine("1. Terreno");
                                             Console.WriteLine("2. Casa/Apartamento");
@@ -272,6 +276,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     break;
 
                                                 case 1:
+                                                    #region Terrenos
 
                                                     Console.WriteLine("Los terrenos disponibles son: ");
 
@@ -287,8 +292,9 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     }
                                                     Console.ReadKey();
                                                     break;
+                                                    #endregion
                                                 case 2:
-
+                                                    #region Casas/Apartamentos
                                                     Console.WriteLine("Las casas/apartamentos disponibles son: ");
 
                                                     for (int i = 0; i < listaCasas.Count; i++)
@@ -307,7 +313,11 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     }
                                                     Console.ReadKey();
                                                     break;
+                                                    #endregion
                                                 case 3:
+                                                    #region Fincas
+                                                    Console.WriteLine("Las fincas disponibles son: ");
+
                                                     for (int i = 0; i < listaFincas.Count; i++)
                                                     {
                                                         Console.WriteLine(
@@ -330,7 +340,9 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     Console.ReadKey();
 
                                                     break;
+                                                    #endregion
                                                 case 4:
+                                                    #region Salones
                                                     Console.WriteLine("Los salones disponibles son: ");
 
 
@@ -349,10 +361,12 @@ namespace ProyectoPropiedadesCodigoLimpio
 
                                                     Console.ReadKey();
                                                     break;
-                                            }
+                                            }       #endregion
 
                                             break;
+                                            #endregion
 
+                                            #endregion
                                     }
                                 }
                                 catch (FormatException e)
@@ -362,20 +376,17 @@ namespace ProyectoPropiedadesCodigoLimpio
                                 Console.ReadKey();
 
                             }
-
                             Console.ReadKey();
                             break;
-
+                            #endregion
+                            
                         case 2:
-                            Console.WriteLine("Has elegido la opción Citas");
-                            Console.ReadKey();
-                            break;
-
-                        case 3:
+                            #region Salir
                             Console.WriteLine("Has elegido salir de la aplicación");
                             salir = true;
                             Console.ReadKey();
                             break;
+                            #endregion
                         default:
                             Console.WriteLine("Elige una opcion entre 1 y 3.");
                             Console.ReadKey();
