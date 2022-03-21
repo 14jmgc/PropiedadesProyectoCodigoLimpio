@@ -29,12 +29,12 @@ namespace ProyectoPropiedadesCodigoLimpio
                     int menu = Convert.ToInt16(Console.ReadLine());
 
                     switch (menu)
-                    {   
+                    {
                         case 1:
                             #region Propiedades
                             bool propiedad = false;
                             while (!propiedad)
-                            
+
                             {
                                 try
                                 {
@@ -43,9 +43,11 @@ namespace ProyectoPropiedadesCodigoLimpio
                                     Console.WriteLine("Has elegido la opción Propiedad.\n");
 
                                     Console.WriteLine("1. Agregar una propiedad. ");
-                                    Console.WriteLine("2. Editar una propiedad. ");
-                                    Console.WriteLine("3. Eliminar una propiedad. ");
-                                    Console.WriteLine("4. Mostrar propiedades.");
+                                    Console.WriteLine("2. Mostrar propiedades. ");
+                                    Console.WriteLine("3. Editar estado de una propiedad. ");
+                                    Console.WriteLine("4. Eliminar una propiedad. ");
+
+
                                     Console.WriteLine("0. Devolverse al menu anterior. \n");
 
                                     Console.WriteLine("Ingrese una opcion:  ");
@@ -59,206 +61,199 @@ namespace ProyectoPropiedadesCodigoLimpio
                                             propiedad = true;
                                             Console.ReadKey();
                                             break;
-                                            #endregion
+                                        #endregion
 
                                         case 1:
                                             #region Agregar propiedad
-                                                Console.WriteLine("¿Que tipo de propiedad desea agregar?");
-                                                Console.WriteLine("1. Terreno");
-                                                Console.WriteLine("2. Casa/Apartamento");
-                                                Console.WriteLine("3. Finca");
-                                                Console.WriteLine("4. Salon de eventos");
-                                                Console.WriteLine("0. Devolverse al menú anterior.\n");
-                                                Console.WriteLine("Digite la opcion seleccionada: ");
-                                                int tipoPropiedad = Convert.ToInt16(Console.ReadLine());
+                                            Console.WriteLine("¿Que tipo de propiedad desea agregar?");
+                                            Console.WriteLine("1. Terreno");
+                                            Console.WriteLine("2. Casa/Apartamento");
+                                            Console.WriteLine("3. Finca");
+                                            Console.WriteLine("4. Salon de eventos");
+                                            Console.WriteLine("0. Devolverse al menú anterior.\n");
+                                            Console.WriteLine("Digite la opcion seleccionada: ");
+                                            int tipoPropiedad = Convert.ToInt16(Console.ReadLine());
 
 
-                                                switch (tipoPropiedad)
-                                                {
+                                            switch (tipoPropiedad)
+                                            {
 
-                                                    case 0:
+                                                case 0:
 
-                                                        break;
-
-
-                                                    case 1:
-                                                        #region Terreno
-                                                        Console.WriteLine("Ingrese la dirección:  ");
-                                                        string direccionTerreno = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el dueño:  ");
-                                                        string dueñoTerreno = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el nombre:  ");
-                                                        string nombreTerreno = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el precio:  ");
-                                                        long precioTerreno = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el estado:  ");
-                                                        string estadoTerreno = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el metraje:  ");
-                                                        long metrajeTerreno = Convert.ToInt64(Console.ReadLine());
+                                                    break;
 
 
-                                                        listaTerrenos.Add(new Terreno()
-                                                        {
-                                                            Direccion = direccionTerreno,
-                                                            Dueño = dueñoTerreno,
-                                                            Nombre = nombreTerreno,
-                                                            Precio = precioTerreno,
-                                                            Estado = estadoTerreno,
-                                                            Metraje = metrajeTerreno,
-                                                        });
+                                                case 1:
+                                                    #region Terreno
+                                                    Console.WriteLine("Ingrese la dirección:  ");
+                                                    string direccionTerreno = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el dueño:  ");
+                                                    string dueñoTerreno = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el nombre:  ");
+                                                    string nombreTerreno = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el precio:  ");
+                                                    long precioTerreno = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el estado:  ");
+                                                    string estadoTerreno = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el metraje:  ");
+                                                    long metrajeTerreno = Convert.ToInt64(Console.ReadLine());
 
-                                                        Console.WriteLine("Terreno agregado.");
-                                                        Console.ReadKey();
 
-                                                        break;
-                                                        #endregion
-                                                    case 2:
-                                                        #region Casa/Apartamento
-                                                        Console.WriteLine("Ingrese la dirección:  ");
-                                                        string direccionCasa = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el dueño:  ");
-                                                        string dueñoCasa = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el nombre:  ");
-                                                        string nombreCasa = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el precio:  ");
-                                                        long precioCasa = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el estado:  ");
-                                                        string estadoCasa = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el metraje:  ");
-                                                        long metrajeCasa = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de pisos:  ");
-                                                        int pisosCasa = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de habitaciones:  ");
-                                                        int habitacionesCasa = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de baños:  ");
-                                                        int bañosCasa = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de garajes:  ");
-                                                        int garajeCasa = Convert.ToInt16(Console.ReadLine());
+                                                    listaTerrenos.Add(new Terreno()
+                                                    {
+                                                        Direccion = direccionTerreno,
+                                                        Dueño = dueñoTerreno,
+                                                        Nombre = nombreTerreno,
+                                                        Precio = precioTerreno,
+                                                        Estado = estadoTerreno,
+                                                        Metraje = metrajeTerreno,
+                                                    });
 
-                                                        listaCasas.Add(new Casa()
-                                                        {
-                                                            Direccion = direccionCasa,
-                                                            Dueño = dueñoCasa,
-                                                            Nombre = nombreCasa,
-                                                            Precio = precioCasa,
-                                                            Estado = estadoCasa,
-                                                            Metraje = metrajeCasa,
-                                                            Pisos = pisosCasa,
-                                                            Habitaciones = habitacionesCasa,
-                                                            Baños = bañosCasa,
-                                                            Garaje = garajeCasa
-                                                        });
+                                                    Console.WriteLine("Terreno agregado.");
+                                                    Console.ReadKey();
 
-                                                        Console.WriteLine("Casa/Apartamento agregado.");
-                                                        Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 2:
+                                                    #region Casa/Apartamento
+                                                    Console.WriteLine("Ingrese la dirección:  ");
+                                                    string direccionCasa = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el dueño:  ");
+                                                    string dueñoCasa = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el nombre:  ");
+                                                    string nombreCasa = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el precio:  ");
+                                                    long precioCasa = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el estado:  ");
+                                                    string estadoCasa = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el metraje:  ");
+                                                    long metrajeCasa = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de pisos:  ");
+                                                    int pisosCasa = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de habitaciones:  ");
+                                                    int habitacionesCasa = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de baños:  ");
+                                                    int bañosCasa = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de garajes:  ");
+                                                    int garajeCasa = Convert.ToInt16(Console.ReadLine());
 
-                                                        break;
-                                                        #endregion
-                                                    case 3:
-                                                        #region Finca
-                                                        Console.WriteLine("Ingrese la dirección:  ");
-                                                        string direccionFinca = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el dueño:  ");
-                                                        string dueñoFinca = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el nombre:  ");
-                                                        string nombreFinca = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el precio:  ");
-                                                        long precioFinca = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el estado:  ");
-                                                        string estadoFinca = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el metraje:  ");
-                                                        long metrajeFinca = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de pisos:  ");
-                                                        int pisosFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de habitaciones:  ");
-                                                        int habitacionesFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de baños:  ");
-                                                        int bañosFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de garajes:  ");
-                                                        int garajeFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de piscinas:  ");
-                                                        int piscinaFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de toboganes:  ");
-                                                        int toboganFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de turcos:  ");
-                                                        int turcoFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de canchas:  ");
-                                                        int canchaFinca = Convert.ToInt16(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la capacidad de la finca:  ");
-                                                        int capacidadFinca = Convert.ToInt16(Console.ReadLine());
+                                                    listaCasas.Add(new Casa()
+                                                    {
+                                                        Direccion = direccionCasa,
+                                                        Dueño = dueñoCasa,
+                                                        Nombre = nombreCasa,
+                                                        Precio = precioCasa,
+                                                        Estado = estadoCasa,
+                                                        Metraje = metrajeCasa,
+                                                        Pisos = pisosCasa,
+                                                        Habitaciones = habitacionesCasa,
+                                                        Baños = bañosCasa,
+                                                        Garaje = garajeCasa
+                                                    });
 
-                                                        listaFincas.Add(new Finca()
-                                                        {
-                                                            Direccion = direccionFinca,
-                                                            Dueño = dueñoFinca,
-                                                            Nombre = nombreFinca,
-                                                            Precio = precioFinca,
-                                                            Estado = estadoFinca,
-                                                            Metraje = metrajeFinca,
-                                                            Pisos = pisosFinca,
-                                                            Habitaciones = habitacionesFinca,
-                                                            Baños = bañosFinca,
-                                                            Garaje = garajeFinca,
-                                                            Piscina = piscinaFinca,
-                                                            Tobogan = toboganFinca,
-                                                            Turco = turcoFinca,
-                                                            Cancha = canchaFinca,
-                                                            Capacidad = capacidadFinca
-                                                        });
+                                                    Console.WriteLine("Casa/Apartamento agregado.");
+                                                    Console.ReadKey();
 
-                                                        Console.WriteLine("Finca agregada.");
-                                                        Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 3:
+                                                    #region Finca
+                                                    Console.WriteLine("Ingrese la dirección:  ");
+                                                    string direccionFinca = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el dueño:  ");
+                                                    string dueñoFinca = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el nombre:  ");
+                                                    string nombreFinca = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el precio:  ");
+                                                    long precioFinca = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el estado:  ");
+                                                    string estadoFinca = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el metraje:  ");
+                                                    long metrajeFinca = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de pisos:  ");
+                                                    int pisosFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de habitaciones:  ");
+                                                    int habitacionesFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de baños:  ");
+                                                    int bañosFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de garajes:  ");
+                                                    int garajeFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de piscinas:  ");
+                                                    int piscinaFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de toboganes:  ");
+                                                    int toboganFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de turcos:  ");
+                                                    int turcoFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de canchas:  ");
+                                                    int canchaFinca = Convert.ToInt16(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la capacidad de la finca:  ");
+                                                    int capacidadFinca = Convert.ToInt16(Console.ReadLine());
 
-                                                        break;
-                                                        #endregion
-                                                    case 4:
-                                                        #region Salon de eventos
-                                                        Console.WriteLine("Ingrese la dirección:  ");
-                                                        string direccionSalonDeEventos = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el dueño:  ");
-                                                        string dueñoSalonDeEventos = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el nombre:  ");
-                                                        string nombreSalonDeEventos = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el precio:  ");
-                                                        long precioSalonDeEventos = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el estado:  ");
-                                                        string estadoSalonDeEventos = (Console.ReadLine());
-                                                        Console.WriteLine("Ingrese el metraje:  ");
-                                                        long metrajeSalonDeEventos = Convert.ToInt64(Console.ReadLine());
-                                                        Console.WriteLine("Ingrese la cantidad de baños:  ");
-                                                        int bañosSalonDeEventos = Convert.ToInt16(Console.ReadLine());
-                                                        listaSalones.Add(new SalonDeEventos()
+                                                    listaFincas.Add(new Finca()
+                                                    {
+                                                        Direccion = direccionFinca,
+                                                        Dueño = dueñoFinca,
+                                                        Nombre = nombreFinca,
+                                                        Precio = precioFinca,
+                                                        Estado = estadoFinca,
+                                                        Metraje = metrajeFinca,
+                                                        Pisos = pisosFinca,
+                                                        Habitaciones = habitacionesFinca,
+                                                        Baños = bañosFinca,
+                                                        Garaje = garajeFinca,
+                                                        Piscina = piscinaFinca,
+                                                        Tobogan = toboganFinca,
+                                                        Turco = turcoFinca,
+                                                        Cancha = canchaFinca,
+                                                        Capacidad = capacidadFinca
+                                                    });
 
-                                                        {
-                                                            Direccion = direccionSalonDeEventos,
-                                                            Dueño = dueñoSalonDeEventos,
-                                                            Nombre = nombreSalonDeEventos,
-                                                            Precio = precioSalonDeEventos,
-                                                            Estado = estadoSalonDeEventos,
-                                                            Metraje = metrajeSalonDeEventos,
-                                                            Baños = bañosSalonDeEventos
-                                                        });
+                                                    Console.WriteLine("Finca agregada.");
+                                                    Console.ReadKey();
 
-                                                        Console.WriteLine("Salon De Eventos agregado.");
-                                                        Console.ReadKey();
-                                                        
-                                                        break;
-                                                        #endregion
-                                                }
-                                            
-                                        break;
-                                           #endregion
+                                                    break;
+                                                #endregion
+                                                case 4:
+                                                    #region Salon de eventos
+                                                    Console.WriteLine("Ingrese la dirección:  ");
+                                                    string direccionSalonDeEventos = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el dueño:  ");
+                                                    string dueñoSalonDeEventos = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el nombre:  ");
+                                                    string nombreSalonDeEventos = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el precio:  ");
+                                                    long precioSalonDeEventos = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el estado:  ");
+                                                    string estadoSalonDeEventos = (Console.ReadLine());
+                                                    Console.WriteLine("Ingrese el metraje:  ");
+                                                    long metrajeSalonDeEventos = Convert.ToInt64(Console.ReadLine());
+                                                    Console.WriteLine("Ingrese la cantidad de baños:  ");
+                                                    int bañosSalonDeEventos = Convert.ToInt16(Console.ReadLine());
+                                                    listaSalones.Add(new SalonDeEventos()
+
+                                                    {
+                                                        Direccion = direccionSalonDeEventos,
+                                                        Dueño = dueñoSalonDeEventos,
+                                                        Nombre = nombreSalonDeEventos,
+                                                        Precio = precioSalonDeEventos,
+                                                        Estado = estadoSalonDeEventos,
+                                                        Metraje = metrajeSalonDeEventos,
+                                                        Baños = bañosSalonDeEventos
+                                                    });
+
+                                                    Console.WriteLine("Salon De Eventos agregado.");
+                                                    Console.ReadKey();
+
+                                                    break;
+                                                    #endregion
+                                            }
+
+                                            break;
+                                        #endregion
 
                                         case 2:
+                                            #region Mostrar
 
-                                            break;
-
-                                        case 3:
-
-                                            break;
-
-                                        case 4:
-                                            #region Mostar
                                             Console.WriteLine("¿Que propiedades desea mostrar?");
                                             Console.WriteLine("1. Terreno");
                                             Console.WriteLine("2. Casa/Apartamento");
@@ -292,7 +287,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     }
                                                     Console.ReadKey();
                                                     break;
-                                                    #endregion
+                                                #endregion
                                                 case 2:
                                                     #region Casas/Apartamentos
                                                     Console.WriteLine("Las casas/apartamentos disponibles son: ");
@@ -313,7 +308,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     }
                                                     Console.ReadKey();
                                                     break;
-                                                    #endregion
+                                                #endregion
                                                 case 3:
                                                     #region Fincas
                                                     Console.WriteLine("Las fincas disponibles son: ");
@@ -340,7 +335,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     Console.ReadKey();
 
                                                     break;
-                                                    #endregion
+                                                #endregion
                                                 case 4:
                                                     #region Salones
                                                     Console.WriteLine("Los salones disponibles son: ");
@@ -361,12 +356,212 @@ namespace ProyectoPropiedadesCodigoLimpio
 
                                                     Console.ReadKey();
                                                     break;
-                                            }       #endregion
+                                                    #endregion
+
+                                            }
 
                                             break;
                                             #endregion
+                                                                                  
+                                        case 3:
+                                            #region Editar estado de una propiedad
 
-                                            #endregion
+                                            Console.WriteLine("¿Que propiedad desea editar?");
+
+                                            Console.WriteLine("1. Terreno");
+                                            Console.WriteLine("2. Casa/Apartamento");
+                                            Console.WriteLine("3. Finca");
+                                            Console.WriteLine("4. Salon de eventos");
+                                            Console.WriteLine("0. Devolverse al menú anterior.\n");
+
+                                            Console.WriteLine("Digite la opcion seleccionada: ");
+                                            int editarPropiedad = Convert.ToInt16(Console.ReadLine());
+
+                                            Console.WriteLine("\n Cual es la direccion de la propiedad que desea editar: ");
+                                            string direccionEditar = Console.ReadLine();
+                                            Console.WriteLine("Digite el nuevo estado de la propiedad: ");
+                                            string nuevoEstado = Console.ReadLine();
+
+                                            switch (editarPropiedad)
+                                            {
+                                                case 0:
+                                                    Console.WriteLine("Has elegido devolverter al menu anterior.");
+                                                    Console.ReadKey();
+                                                    break;
+
+                                                case 1:
+                                                    #region Terrenos
+
+                                                    for (int i = 0; i < listaTerrenos.Count; i++)
+                                                    {
+                                                        if (listaTerrenos[i].Direccion == direccionEditar)
+                                                        {
+
+                                                            listaTerrenos[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 2:
+                                                    #region Casas/Apartamentos
+                                                    Console.WriteLine("Las casas/apartamentos disponibles son: ");
+
+                                                    for (int i = 0; i < listaCasas.Count; i++)
+                                                    {
+                                                        if (listaCasas[i].Direccion == direccionEditar)
+                                                        {
+                                                            listaCasas[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 3:
+                                                    #region Fincas
+                                                    Console.WriteLine("Las fincas disponibles son: ");
+
+                                                    for (int i = 0; i < listaFincas.Count; i++)
+                                                    {
+                                                        if (listaFincas[i].Direccion == direccionEditar)
+                                                        {
+                                                            listaFincas[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+
+                                                    break;
+                                                #endregion
+                                                case 4:
+                                                    #region Salones
+                                                    Console.WriteLine("Los salones disponibles son: ");
+
+
+                                                    for (int i = 0; i < listaSalones.Count; i++)
+                                                    {
+                                                        if (listaSalones[i].Direccion == direccionEditar)
+                                                        {
+                                                            listaSalones[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+
+                                                    Console.ReadKey();
+                                                    break;
+                                                    #endregion
+
+                                            }
+
+
+
+                                            break;
+                                        #endregion
+
+
+                                        case 4:
+                                            #region Eliminar Propiedad
+                                            Console.WriteLine("\n Eliminar una propiedad.");
+                                            Console.WriteLine("¿Que propiedad desea eliminar?");
+
+                                            Console.WriteLine("1. Terreno");
+                                            Console.WriteLine("2. Casa/Apartamento");
+                                            Console.WriteLine("3. Finca");
+                                            Console.WriteLine("4. Salon de eventos");
+                                            Console.WriteLine("0. Devolverse al menú anterior.\n");
+
+                                            Console.WriteLine("Digite la opcion seleccionada: ");
+                                            int eliminarPropiedad = Convert.ToInt16(Console.ReadLine());
+
+                                            Console.WriteLine("\n Cual es la direccion de la propiedad que desea eliminar: ");
+                                            string direccionEliminar = Console.ReadLine();
+
+                                            switch (eliminarPropiedad)
+                                            {
+                                                case 0:
+                                                    Console.WriteLine("Has elegido devolverter al menu anterior.");
+                                                    Console.ReadKey();
+                                                    break;
+
+                                                case 1:
+                                                    #region Terrenos
+
+                                                    for (int i = 0; i < listaTerrenos.Count; i++)
+                                                    {
+                                                        if (listaTerrenos[i].Direccion == direccionEliminar)
+                                                        {
+
+                                                            listaTerrenos.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 2:
+                                                    #region Casas/Apartamentos
+                                                    Console.WriteLine("Las casas/apartamentos disponibles son: ");
+
+                                                    for (int i = 0; i < listaCasas.Count; i++)
+                                                    {
+                                                        if (listaCasas[i].Direccion == direccionEliminar)
+                                                        {
+                                                            listaTerrenos.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 3:
+                                                    #region Fincas
+                                                    Console.WriteLine("Las fincas disponibles son: ");
+
+                                                    for (int i = 0; i < listaFincas.Count; i++)
+                                                    {
+                                                        if (listaCasas[i].Direccion == direccionEliminar)
+                                                        {
+                                                            listaCasas.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+
+                                                    break;
+                                                #endregion
+                                                case 4:
+                                                    #region Salones
+                                                    Console.WriteLine("Los salones disponibles son: ");
+
+
+                                                    for (int i = 0; i < listaSalones.Count; i++)
+                                                    {
+                                                        if (listaSalones[i].Direccion == direccionEliminar)
+                                                        {
+                                                            listaSalones.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+
+                                                    Console.ReadKey();
+                                                    break;
+                                                    #endregion
+
+                                            }
+                                            break;
+
+
+                                            #endregion                                           
+
                                     }
                                 }
                                 catch (FormatException e)
@@ -378,32 +573,33 @@ namespace ProyectoPropiedadesCodigoLimpio
                             }
                             Console.ReadKey();
                             break;
-                            #endregion
-                            
+                        #endregion
+
                         case 2:
                             #region Salir
                             Console.WriteLine("Has elegido salir de la aplicación");
                             salir = true;
                             Console.ReadKey();
                             break;
-                            #endregion
+                        #endregion
                         default:
-                            Console.WriteLine("Elige una opcion entre 1 y 3.");
+                            Console.WriteLine("Elige una opcion valida.");
                             Console.ReadKey();
                             break;
                     }
                 }
                 catch (FormatException e)
-                {                   
+                {
                     Console.WriteLine("Por favor verifique el formato de los datos que está ingresando", e);
                 }
                 Console.ReadKey();
 
 
             }
-                        
+
             Console.WriteLine("El programa ha finalizado.");
             Console.ReadKey();
         }
     }
+    
 }
