@@ -43,8 +43,10 @@ namespace ProyectoPropiedadesCodigoLimpio
                                     Console.WriteLine("Has elegido la opción Propiedad.\n");
 
                                     Console.WriteLine("1. Agregar una propiedad. ");
-                                    Console.WriteLine("2. Eliminar una propiedad. ");
-                                    Console.WriteLine("3. Mostrar propiedades. ");
+                                    Console.WriteLine("2. Mostrar propiedades. ");
+                                    Console.WriteLine("3. Editar estado de una propiedad. ");
+                                    Console.WriteLine("4. Eliminar una propiedad. ");
+
 
                                     Console.WriteLine("0. Devolverse al menu anterior. \n");
 
@@ -250,109 +252,8 @@ namespace ProyectoPropiedadesCodigoLimpio
                                         #endregion
 
                                         case 2:
-                                            #region Eliminar Propiedad
-                                            Console.WriteLine("\n Eliminar una propiedad.");
-                                            Console.WriteLine("¿Que propiedad desea eliminar?");
+                                            #region Mostrar
 
-                                            Console.WriteLine("1. Terreno");
-                                            Console.WriteLine("2. Casa/Apartamento");
-                                            Console.WriteLine("3. Finca");
-                                            Console.WriteLine("4. Salon de eventos");
-                                            Console.WriteLine("0. Devolverse al menú anterior.\n");
-
-                                            Console.WriteLine("Digite la opcion seleccionada: ");
-                                            int eliminarPropiedad = Convert.ToInt16(Console.ReadLine());
-
-                                            Console.WriteLine("\n Cual es la direccion de la propiedad que desea eliminar: ");
-                                            string direccionEliminar = Console.ReadLine();
-
-                                            switch (eliminarPropiedad)
-                                            {
-                                                case 0:
-                                                    Console.WriteLine("Has elegido devolverter al menu anterior.");
-                                                    Console.ReadKey();
-                                                    break;
-
-                                                case 1:
-                                                    #region Terrenos
-
-                                                    for (int i = 0; i < listaTerrenos.Count; i++)
-                                                    {
-                                                        if (listaTerrenos[i].Direccion == direccionEliminar)
-                                                        {
-                                                            
-                                                            listaTerrenos.RemoveAt(i);
-                                                            Console.WriteLine("Se ha eliminado con exito.");
-                                                            break;
-                                                        }
-                                                    }
-                                                    Console.ReadKey();
-                                                    break;
-                                                #endregion
-                                                case 2:
-                                                    #region Casas/Apartamentos
-                                                    Console.WriteLine("Las casas/apartamentos disponibles son: ");
-
-                                                    for (int i = 0; i < listaCasas.Count; i++)
-                                                    {
-                                                        if (listaCasas[i].Direccion == direccionEliminar)
-                                                        {
-                                                            int posicion = i - 1;
-                                                            listaTerrenos.RemoveAt(posicion);
-                                                            Console.WriteLine("Se ha eliminado con exito.");
-                                                            break;
-                                                        }
-                                                    }
-                                                    Console.ReadKey();
-                                                    break;
-                                                #endregion
-                                                case 3:
-                                                    #region Fincas
-                                                    Console.WriteLine("Las fincas disponibles son: ");
-
-                                                    for (int i = 0; i < listaFincas.Count; i++)
-                                                    {
-                                                        if (listaCasas[i].Direccion == direccionEliminar)
-                                                        {
-                                                            int posicion = i - 1;
-                                                            listaCasas.RemoveAt(posicion);
-                                                            Console.WriteLine("Se ha eliminado con exito.");
-                                                            break;
-                                                        }
-                                                    }
-                                                    Console.ReadKey();
-
-                                                    break;
-                                                #endregion
-                                                case 4:
-                                                    #region Salones
-                                                    Console.WriteLine("Los salones disponibles son: ");
-
-
-                                                    for (int i = 0; i < listaSalones.Count; i++)
-                                                    {
-                                                        if (listaSalones[i].Direccion == direccionEliminar)
-                                                        {
-                                                            int posicion = i - 1;
-                                                            listaSalones.RemoveAt(posicion);
-                                                            Console.WriteLine("Se ha eliminado con exito.");
-                                                            break;
-                                                        }
-                                                    }
-
-                                                    Console.ReadKey();
-                                                    break;
-                                                    #endregion
-
-                                            }
-                                            break;
-
-
-                                        #endregion
-                                        #region Mostar
-                                        case 3:
-                                            
-                                            
                                             Console.WriteLine("¿Que propiedades desea mostrar?");
                                             Console.WriteLine("1. Terreno");
                                             Console.WriteLine("2. Casa/Apartamento");
@@ -460,8 +361,207 @@ namespace ProyectoPropiedadesCodigoLimpio
                                             }
 
                                             break;
-
                                             #endregion
+                                                                                  
+                                        case 3:
+                                            #region Editar estado de una propiedad
+
+                                            Console.WriteLine("¿Que propiedad desea editar?");
+
+                                            Console.WriteLine("1. Terreno");
+                                            Console.WriteLine("2. Casa/Apartamento");
+                                            Console.WriteLine("3. Finca");
+                                            Console.WriteLine("4. Salon de eventos");
+                                            Console.WriteLine("0. Devolverse al menú anterior.\n");
+
+                                            Console.WriteLine("Digite la opcion seleccionada: ");
+                                            int editarPropiedad = Convert.ToInt16(Console.ReadLine());
+
+                                            Console.WriteLine("\n Cual es la direccion de la propiedad que desea editar: ");
+                                            string direccionEditar = Console.ReadLine();
+                                            Console.WriteLine("Digite el nuevo estado de la propiedad: ");
+                                            string nuevoEstado = Console.ReadLine();
+
+                                            switch (editarPropiedad)
+                                            {
+                                                case 0:
+                                                    Console.WriteLine("Has elegido devolverter al menu anterior.");
+                                                    Console.ReadKey();
+                                                    break;
+
+                                                case 1:
+                                                    #region Terrenos
+
+                                                    for (int i = 0; i < listaTerrenos.Count; i++)
+                                                    {
+                                                        if (listaTerrenos[i].Direccion == direccionEditar)
+                                                        {
+
+                                                            listaTerrenos[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 2:
+                                                    #region Casas/Apartamentos
+                                                    Console.WriteLine("Las casas/apartamentos disponibles son: ");
+
+                                                    for (int i = 0; i < listaCasas.Count; i++)
+                                                    {
+                                                        if (listaCasas[i].Direccion == direccionEditar)
+                                                        {
+                                                            listaCasas[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 3:
+                                                    #region Fincas
+                                                    Console.WriteLine("Las fincas disponibles son: ");
+
+                                                    for (int i = 0; i < listaFincas.Count; i++)
+                                                    {
+                                                        if (listaFincas[i].Direccion == direccionEditar)
+                                                        {
+                                                            listaFincas[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+
+                                                    break;
+                                                #endregion
+                                                case 4:
+                                                    #region Salones
+                                                    Console.WriteLine("Los salones disponibles son: ");
+
+
+                                                    for (int i = 0; i < listaSalones.Count; i++)
+                                                    {
+                                                        if (listaSalones[i].Direccion == direccionEditar)
+                                                        {
+                                                            listaSalones[i].Estado = nuevoEstado;
+                                                            Console.WriteLine("Se ha editado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+
+                                                    Console.ReadKey();
+                                                    break;
+                                                    #endregion
+
+                                            }
+
+
+
+                                            break;
+                                        #endregion
+
+
+                                        case 4:
+                                            #region Eliminar Propiedad
+                                            Console.WriteLine("\n Eliminar una propiedad.");
+                                            Console.WriteLine("¿Que propiedad desea eliminar?");
+
+                                            Console.WriteLine("1. Terreno");
+                                            Console.WriteLine("2. Casa/Apartamento");
+                                            Console.WriteLine("3. Finca");
+                                            Console.WriteLine("4. Salon de eventos");
+                                            Console.WriteLine("0. Devolverse al menú anterior.\n");
+
+                                            Console.WriteLine("Digite la opcion seleccionada: ");
+                                            int eliminarPropiedad = Convert.ToInt16(Console.ReadLine());
+
+                                            Console.WriteLine("\n Cual es la direccion de la propiedad que desea eliminar: ");
+                                            string direccionEliminar = Console.ReadLine();
+
+                                            switch (eliminarPropiedad)
+                                            {
+                                                case 0:
+                                                    Console.WriteLine("Has elegido devolverter al menu anterior.");
+                                                    Console.ReadKey();
+                                                    break;
+
+                                                case 1:
+                                                    #region Terrenos
+
+                                                    for (int i = 0; i < listaTerrenos.Count; i++)
+                                                    {
+                                                        if (listaTerrenos[i].Direccion == direccionEliminar)
+                                                        {
+
+                                                            listaTerrenos.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 2:
+                                                    #region Casas/Apartamentos
+                                                    Console.WriteLine("Las casas/apartamentos disponibles son: ");
+
+                                                    for (int i = 0; i < listaCasas.Count; i++)
+                                                    {
+                                                        if (listaCasas[i].Direccion == direccionEliminar)
+                                                        {
+                                                            listaTerrenos.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+                                                    break;
+                                                #endregion
+                                                case 3:
+                                                    #region Fincas
+                                                    Console.WriteLine("Las fincas disponibles son: ");
+
+                                                    for (int i = 0; i < listaFincas.Count; i++)
+                                                    {
+                                                        if (listaCasas[i].Direccion == direccionEliminar)
+                                                        {
+                                                            listaCasas.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+                                                    Console.ReadKey();
+
+                                                    break;
+                                                #endregion
+                                                case 4:
+                                                    #region Salones
+                                                    Console.WriteLine("Los salones disponibles son: ");
+
+
+                                                    for (int i = 0; i < listaSalones.Count; i++)
+                                                    {
+                                                        if (listaSalones[i].Direccion == direccionEliminar)
+                                                        {
+                                                            listaSalones.RemoveAt(i);
+                                                            Console.WriteLine("Se ha eliminado con exito.");
+                                                            break;
+                                                        }
+                                                    }
+
+                                                    Console.ReadKey();
+                                                    break;
+                                                    #endregion
+
+                                            }
+                                            break;
+
+
+                                            #endregion                                           
+
                                     }
                                 }
                                 catch (FormatException e)
@@ -483,7 +583,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                             break;
                         #endregion
                         default:
-                            Console.WriteLine("Elige una opcion entre 1 y 3.");
+                            Console.WriteLine("Elige una opcion valida.");
                             Console.ReadKey();
                             break;
                     }
