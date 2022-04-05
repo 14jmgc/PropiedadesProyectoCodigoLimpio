@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoPropiedadesCodigoLimpio
 {
-    internal class Program
+    internal class Propiedad
     {
         static void Main(string[] args)
         {
