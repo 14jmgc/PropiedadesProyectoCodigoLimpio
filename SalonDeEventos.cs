@@ -10,8 +10,9 @@
             _baños = 2;
 
         }
-    public SalonDeEventos(string direccion, string dueño, string nombre, long precio, string estado, int metraje, int baños)
+    public SalonDeEventos(string direccion, string dueno, string nombre, long precio, string estado, int metraje, int baños) : base(direccion, dueno, nombre, precio, estado, metraje)
         {
+            
             _baños = baños;
 
         }

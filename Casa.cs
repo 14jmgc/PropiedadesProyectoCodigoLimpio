@@ -27,7 +27,7 @@ namespace ProyectoPropiedadesCodigoLimpio
             _garaje = 0;
         }
 
-        public Casa(string direccion, string dueño, string nombre, long precio, string estado, int metraje, int pisos, int habitaciones, int baños, int garaje) : base(direccion, dueño, nombre, precio, estado, metraje)
+        public Casa(string direccion, string dueno, string nombre, long precio, string estado, int metraje, int pisos, int habitaciones, int baños, int garaje) : base(direccion, dueno, nombre, precio, estado, metraje)
         {
             _pisos = pisos;
             _habitaciones = habitaciones;

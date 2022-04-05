@@ -88,7 +88,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     Console.WriteLine("Ingrese la dirección:  ");
                                                     string direccionTerreno = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el dueño:  ");
-                                                    string dueñoTerreno = (Console.ReadLine());
+                                                    string duenoTerreno = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el nombre:  ");
                                                     string nombreTerreno = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el precio:  ");
@@ -102,7 +102,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     listaTerrenos.Add(new Terreno()
                                                     {
                                                         Direccion = direccionTerreno,
-                                                        Dueño = dueñoTerreno,
+                                                        Dueno = duenoTerreno,
                                                         Nombre = nombreTerreno,
                                                         Precio = precioTerreno,
                                                         Estado = estadoTerreno,
@@ -119,7 +119,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     Console.WriteLine("Ingrese la dirección:  ");
                                                     string direccionCasa = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el dueño:  ");
-                                                    string dueñoCasa = (Console.ReadLine());
+                                                    string duenoCasa = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el nombre:  ");
                                                     string nombreCasa = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el precio:  ");
@@ -140,7 +140,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     listaCasas.Add(new Casa()
                                                     {
                                                         Direccion = direccionCasa,
-                                                        Dueño = dueñoCasa,
+                                                        Dueno = duenoCasa,
                                                         Nombre = nombreCasa,
                                                         Precio = precioCasa,
                                                         Estado = estadoCasa,
@@ -161,7 +161,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     Console.WriteLine("Ingrese la dirección:  ");
                                                     string direccionFinca = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el dueño:  ");
-                                                    string dueñoFinca = (Console.ReadLine());
+                                                    string duenoFinca = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el nombre:  ");
                                                     string nombreFinca = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el precio:  ");
@@ -192,7 +192,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     listaFincas.Add(new Finca()
                                                     {
                                                         Direccion = direccionFinca,
-                                                        Dueño = dueñoFinca,
+                                                        Dueno = duenoFinca,
                                                         Nombre = nombreFinca,
                                                         Precio = precioFinca,
                                                         Estado = estadoFinca,
@@ -218,7 +218,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     Console.WriteLine("Ingrese la dirección:  ");
                                                     string direccionSalonDeEventos = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el dueño:  ");
-                                                    string dueñoSalonDeEventos = (Console.ReadLine());
+                                                    string duenoSalonDeEventos = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el nombre:  ");
                                                     string nombreSalonDeEventos = (Console.ReadLine());
                                                     Console.WriteLine("Ingrese el precio:  ");
@@ -233,7 +233,7 @@ namespace ProyectoPropiedadesCodigoLimpio
 
                                                     {
                                                         Direccion = direccionSalonDeEventos,
-                                                        Dueño = dueñoSalonDeEventos,
+                                                        Dueno = duenoSalonDeEventos,
                                                         Nombre = nombreSalonDeEventos,
                                                         Precio = precioSalonDeEventos,
                                                         Estado = estadoSalonDeEventos,
@@ -279,7 +279,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     {
                                                         Console.WriteLine(
                                                             "Direccion: " + listaTerrenos[i].Direccion +
-                                                            " Dueño: " + listaTerrenos[i].Dueño +
+                                                            " Dueño: " + listaTerrenos[i].Dueno +
                                                             " Nombre de la propiedad: " + listaTerrenos[i].Nombre +
                                                             " Precio: " + listaTerrenos[i].Precio +
                                                             " Estado: " + listaTerrenos[i].Estado +
@@ -296,7 +296,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     {
                                                         Console.WriteLine(
                                                             "Direccion: " + listaCasas[i].Direccion +
-                                                            " Dueño: " + listaCasas[i].Dueño +
+                                                            " Dueño: " + listaCasas[i].Dueno +
                                                             " Nombre de la propiedad: " + listaCasas[i].Nombre +
                                                             " Precio: " + listaCasas[i].Precio +
                                                             " Estado: " + listaCasas[i].Estado +
@@ -317,7 +317,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     {
                                                         Console.WriteLine(
                                                             "Direccion: " + listaFincas[i].Direccion +
-                                                            " Dueño: " + listaFincas[i].Dueño +
+                                                            " Dueño: " + listaFincas[i].Dueno +
                                                             " Nombre de la propiedad: " + listaFincas[i].Nombre +
                                                             " Precio: "
                                                             + listaFincas[i].Precio +
@@ -345,7 +345,7 @@ namespace ProyectoPropiedadesCodigoLimpio
                                                     {
                                                         Console.WriteLine(
                                                             "Direccion: " + listaSalones[i].Direccion +
-                                                            " Dueño: " + listaSalones[i].Dueño +
+                                                            " Dueño: " + listaSalones[i].Dueno +
                                                             " Nombre de la propiedad: " + listaSalones[i].Nombre +
                                                             " Precio: "
                                                             + listaSalones[i].Precio +

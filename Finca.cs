@@ -29,7 +29,7 @@ namespace ProyectoPropiedadesCodigoLimpio
             _capacidad = 0;
         }
 
-        public Finca(string direccion, string dueño, string nombre, long precio, string estado, int metraje, int pisos, int habitaciones, int baños, int garaje, int piscina, int tobogan, int turco, int cancha, int capacidad) : base(direccion, dueño, nombre, precio, estado, metraje, pisos, habitaciones, baños, garaje)
+        public Finca(string direccion, string dueno, string nombre, long precio, string estado, int metraje, int pisos, int habitaciones, int baños, int garaje, int piscina, int tobogan, int turco, int cancha, int capacidad) : base(direccion, dueno, nombre, precio, estado, metraje, pisos, habitaciones, baños, garaje)
         {
             _piscina = piscina;
             _tobogan = tobogan;
