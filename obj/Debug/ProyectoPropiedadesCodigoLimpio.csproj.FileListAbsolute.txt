@@ -1,0 +1,8 @@
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\bin\Debug\ProyectoPropiedadesCodigoLimpio.exe.config
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\bin\Debug\ProyectoPropiedadesCodigoLimpio.exe
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\bin\Debug\ProyectoPropiedadesCodigoLimpio.pdb
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\obj\Debug\ProyectoPropiedadesCodigoLimpio.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\obj\Debug\ProyectoPropiedadesCodigoLimpio.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\obj\Debug\ProyectoPropiedadesCodigoLimpio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\obj\Debug\ProyectoPropiedadesCodigoLimpio.exe
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\obj\Debug\ProyectoPropiedadesCodigoLimpio.pdb

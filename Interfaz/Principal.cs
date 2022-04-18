@@ -15,7 +15,8 @@ namespace Interfaz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Funciona ese prbo");
+            Terreno t  = new Terreno();
+             t.Show(); 
         }
 
         private void button2_Click(object sender, EventArgs e)
