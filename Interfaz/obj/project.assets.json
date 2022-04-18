@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanm\\Documents\\Codigo limpio\\Interfaz\\Interfaz.csproj",
+      "projectUniqueName": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj",
       "projectName": "Interfaz",
-      "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\Interfaz\\Interfaz.csproj",
+      "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj",
       "packagesPath": "C:\\Users\\juanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\Interfaz\\obj\\",
+      "outputPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
