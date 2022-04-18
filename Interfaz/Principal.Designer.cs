@@ -1,0 +1,89 @@
+﻿namespace Interfaz
+{
+    partial class Principal
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnPropiedades = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.lblInmobiliaria = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btnPropiedades
+            // 
+            this.btnPropiedades.Location = new System.Drawing.Point(228, 171);
+            this.btnPropiedades.Name = "btnPropiedades";
+            this.btnPropiedades.Size = new System.Drawing.Size(354, 29);
+            this.btnPropiedades.TabIndex = 0;
+            this.btnPropiedades.Text = "Propiedades";
+            this.btnPropiedades.UseVisualStyleBackColor = true;
+            this.btnPropiedades.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(353, 253);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(94, 29);
+            this.btnSalir.TabIndex = 1;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // lblInmobiliaria
+            // 
+            this.lblInmobiliaria.AutoSize = true;
+            this.lblInmobiliaria.Font = new System.Drawing.Font("Broadway", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblInmobiliaria.Location = new System.Drawing.Point(52, 41);
+            this.lblInmobiliaria.Name = "lblInmobiliaria";
+            this.lblInmobiliaria.Size = new System.Drawing.Size(698, 95);
+            this.lblInmobiliaria.TabIndex = 2;
+            this.lblInmobiliaria.Text = "INMOBILIARIA";
+            this.lblInmobiliaria.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Principal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblInmobiliaria);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnPropiedades);
+            this.Name = "Principal";
+            this.Text = "Inmobiliaria";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Button btnPropiedades;
+        private Button btnSalir;
+        private Label lblInmobiliaria;
+    }
+}
