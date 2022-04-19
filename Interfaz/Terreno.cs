@@ -26,5 +26,24 @@ namespace Interfaz
         {
             this.Close();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDic_Click(object sender, EventArgs e)
+        {
+            String direccion = textDirecion.Text;
+            MostrarTerreo mt = new MostrarTerreo(direccion);
+            mt.Show();
+        }
+
+        private void buttonDue_Click(object sender, EventArgs e)
+        {
+            String dueño = textDueño.Text;
+            MostrarTerreo mt = new MostrarTerreo(dueño);
+            mt.Show();
+        }
     }
 }
