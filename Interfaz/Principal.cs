@@ -15,8 +15,8 @@ namespace Interfaz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Terreno t  = new Terreno();
-             t.Show(); 
+            Propiedades p  = new Propiedades();
+             p.Show(); 
         }
 
         private void button2_Click(object sender, EventArgs e)
