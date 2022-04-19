@@ -28,212 +28,193 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTerrenos = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.lblInmobiliaria = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.lblAgregar = new System.Windows.Forms.Label();
+            this.lblMostrar = new System.Windows.Forms.Label();
+            this.lblEditar = new System.Windows.Forms.Label();
+            this.btnAgregarTerreno = new System.Windows.Forms.Button();
+            this.btnAgregarCasaApto = new System.Windows.Forms.Button();
+            this.btnAgregarFinca = new System.Windows.Forms.Button();
+            this.btnAgregarSalonSocial = new System.Windows.Forms.Button();
+            this.btnMostrarSalonSocial = new System.Windows.Forms.Button();
+            this.btnMostrarFinca = new System.Windows.Forms.Button();
+            this.btnMostrarCasaApto = new System.Windows.Forms.Button();
+            this.btnMostrarTerreno = new System.Windows.Forms.Button();
+            this.btnEditarSalonSocial = new System.Windows.Forms.Button();
+            this.btnEditarFinca = new System.Windows.Forms.Button();
+            this.btnEditarCasaApto = new System.Windows.Forms.Button();
+            this.btnEditarTerreno = new System.Windows.Forms.Button();
+            this.btnRegresarPropiedades = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnTerrenos
+            // lblAgregar
             // 
-            this.btnTerrenos.Location = new System.Drawing.Point(12, 80);
-            this.btnTerrenos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnTerrenos.Name = "btnTerrenos";
-            this.btnTerrenos.Size = new System.Drawing.Size(142, 22);
-            this.btnTerrenos.TabIndex = 1;
-            this.btnTerrenos.Text = "Terrenos";
-            this.btnTerrenos.UseVisualStyleBackColor = true;
-            this.btnTerrenos.Click += new System.EventHandler(this.btnTerrenos_Click);
+            this.lblAgregar.AutoSize = true;
+            this.lblAgregar.Font = new System.Drawing.Font("Bernard MT Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAgregar.Location = new System.Drawing.Point(64, 58);
+            this.lblAgregar.Name = "lblAgregar";
+            this.lblAgregar.Size = new System.Drawing.Size(120, 40);
+            this.lblAgregar.TabIndex = 0;
+            this.lblAgregar.Text = "Agregar";
             // 
-            // button1
+            // lblMostrar
             // 
-            this.button1.Location = new System.Drawing.Point(634, 217);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Regresar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.lblMostrar.AutoSize = true;
+            this.lblMostrar.Font = new System.Drawing.Font("Bernard MT Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMostrar.Location = new System.Drawing.Point(297, 58);
+            this.lblMostrar.Name = "lblMostrar";
+            this.lblMostrar.Size = new System.Drawing.Size(113, 40);
+            this.lblMostrar.TabIndex = 1;
+            this.lblMostrar.Text = "Mostrar";
             // 
-            // button2
+            // lblEditar
             // 
-            this.button2.Location = new System.Drawing.Point(12, 189);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 22);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Salon de eventos";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.lblEditar.AutoSize = true;
+            this.lblEditar.Font = new System.Drawing.Font("Bernard MT Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblEditar.Location = new System.Drawing.Point(580, 58);
+            this.lblEditar.Name = "lblEditar";
+            this.lblEditar.Size = new System.Drawing.Size(93, 40);
+            this.lblEditar.TabIndex = 2;
+            this.lblEditar.Text = "Editar";
             // 
-            // button4
+            // btnAgregarTerreno
             // 
-            this.button4.Location = new System.Drawing.Point(12, 115);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 22);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Casas/Aptos";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnAgregarTerreno.Location = new System.Drawing.Point(64, 127);
+            this.btnAgregarTerreno.Name = "btnAgregarTerreno";
+            this.btnAgregarTerreno.Size = new System.Drawing.Size(120, 29);
+            this.btnAgregarTerreno.TabIndex = 3;
+            this.btnAgregarTerreno.Text = "Terreno";
+            this.btnAgregarTerreno.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnAgregarCasaApto
             // 
-            this.button5.Location = new System.Drawing.Point(12, 154);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 22);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Fincas";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnAgregarCasaApto.Location = new System.Drawing.Point(64, 176);
+            this.btnAgregarCasaApto.Name = "btnAgregarCasaApto";
+            this.btnAgregarCasaApto.Size = new System.Drawing.Size(120, 29);
+            this.btnAgregarCasaApto.TabIndex = 4;
+            this.btnAgregarCasaApto.Text = "Casa/Apto";
+            this.btnAgregarCasaApto.UseVisualStyleBackColor = true;
             // 
-            // lblInmobiliaria
+            // btnAgregarFinca
             // 
-            this.lblInmobiliaria.AutoSize = true;
-            this.lblInmobiliaria.Font = new System.Drawing.Font("Berlin Sans FB", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblInmobiliaria.Location = new System.Drawing.Point(47, 54);
-            this.lblInmobiliaria.Name = "lblInmobiliaria";
-            this.lblInmobiliaria.Size = new System.Drawing.Size(78, 23);
-            this.lblInmobiliaria.TabIndex = 8;
-            this.lblInmobiliaria.Text = "Agregar";
-            this.lblInmobiliaria.Click += new System.EventHandler(this.lblInmobiliaria_Click);
+            this.btnAgregarFinca.Location = new System.Drawing.Point(64, 227);
+            this.btnAgregarFinca.Name = "btnAgregarFinca";
+            this.btnAgregarFinca.Size = new System.Drawing.Size(120, 29);
+            this.btnAgregarFinca.TabIndex = 5;
+            this.btnAgregarFinca.Text = "Finca";
+            this.btnAgregarFinca.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // btnAgregarSalonSocial
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(284, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 23);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Mostrar";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.btnAgregarSalonSocial.Location = new System.Drawing.Point(64, 279);
+            this.btnAgregarSalonSocial.Name = "btnAgregarSalonSocial";
+            this.btnAgregarSalonSocial.Size = new System.Drawing.Size(120, 29);
+            this.btnAgregarSalonSocial.TabIndex = 6;
+            this.btnAgregarSalonSocial.Text = "Salon Social";
+            this.btnAgregarSalonSocial.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnMostrarSalonSocial
             // 
-            this.button3.Location = new System.Drawing.Point(253, 79);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 22);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Terrenos";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnMostrarSalonSocial.Location = new System.Drawing.Point(297, 279);
+            this.btnMostrarSalonSocial.Name = "btnMostrarSalonSocial";
+            this.btnMostrarSalonSocial.Size = new System.Drawing.Size(120, 29);
+            this.btnMostrarSalonSocial.TabIndex = 10;
+            this.btnMostrarSalonSocial.Text = "Salon Social";
+            this.btnMostrarSalonSocial.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnMostrarFinca
             // 
-            this.button6.Location = new System.Drawing.Point(253, 115);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(142, 22);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Casas/Aptos";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnMostrarFinca.Location = new System.Drawing.Point(297, 227);
+            this.btnMostrarFinca.Name = "btnMostrarFinca";
+            this.btnMostrarFinca.Size = new System.Drawing.Size(120, 29);
+            this.btnMostrarFinca.TabIndex = 9;
+            this.btnMostrarFinca.Text = "Finca";
+            this.btnMostrarFinca.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnMostrarCasaApto
             // 
-            this.button7.Location = new System.Drawing.Point(253, 154);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(142, 22);
-            this.button7.TabIndex = 12;
-            this.button7.Text = "Fincas";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnMostrarCasaApto.Location = new System.Drawing.Point(297, 176);
+            this.btnMostrarCasaApto.Name = "btnMostrarCasaApto";
+            this.btnMostrarCasaApto.Size = new System.Drawing.Size(120, 29);
+            this.btnMostrarCasaApto.TabIndex = 8;
+            this.btnMostrarCasaApto.Text = "Casa/Apto";
+            this.btnMostrarCasaApto.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnMostrarTerreno
             // 
-            this.button8.Location = new System.Drawing.Point(253, 189);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(142, 22);
-            this.button8.TabIndex = 13;
-            this.button8.Text = "Salon de eventos";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnMostrarTerreno.Location = new System.Drawing.Point(297, 127);
+            this.btnMostrarTerreno.Name = "btnMostrarTerreno";
+            this.btnMostrarTerreno.Size = new System.Drawing.Size(120, 29);
+            this.btnMostrarTerreno.TabIndex = 7;
+            this.btnMostrarTerreno.Text = "Terreno";
+            this.btnMostrarTerreno.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // btnEditarSalonSocial
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(529, 54);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 23);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Editar";
+            this.btnEditarSalonSocial.Location = new System.Drawing.Point(564, 279);
+            this.btnEditarSalonSocial.Name = "btnEditarSalonSocial";
+            this.btnEditarSalonSocial.Size = new System.Drawing.Size(120, 29);
+            this.btnEditarSalonSocial.TabIndex = 14;
+            this.btnEditarSalonSocial.Text = "Salon Social";
+            this.btnEditarSalonSocial.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnEditarFinca
             // 
-            this.button9.Location = new System.Drawing.Point(492, 80);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(142, 22);
-            this.button9.TabIndex = 15;
-            this.button9.Text = "Terrenos";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnEditarFinca.Location = new System.Drawing.Point(564, 227);
+            this.btnEditarFinca.Name = "btnEditarFinca";
+            this.btnEditarFinca.Size = new System.Drawing.Size(120, 29);
+            this.btnEditarFinca.TabIndex = 13;
+            this.btnEditarFinca.Text = "Finca";
+            this.btnEditarFinca.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnEditarCasaApto
             // 
-            this.button10.Location = new System.Drawing.Point(492, 115);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(142, 22);
-            this.button10.TabIndex = 16;
-            this.button10.Text = "Casas/Aptos";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnEditarCasaApto.Location = new System.Drawing.Point(564, 176);
+            this.btnEditarCasaApto.Name = "btnEditarCasaApto";
+            this.btnEditarCasaApto.Size = new System.Drawing.Size(120, 29);
+            this.btnEditarCasaApto.TabIndex = 12;
+            this.btnEditarCasaApto.Text = "Casa/Apto";
+            this.btnEditarCasaApto.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btnEditarTerreno
             // 
-            this.button11.Location = new System.Drawing.Point(492, 154);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(142, 22);
-            this.button11.TabIndex = 17;
-            this.button11.Text = "Fincas";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btnEditarTerreno.Location = new System.Drawing.Point(564, 127);
+            this.btnEditarTerreno.Name = "btnEditarTerreno";
+            this.btnEditarTerreno.Size = new System.Drawing.Size(120, 29);
+            this.btnEditarTerreno.TabIndex = 11;
+            this.btnEditarTerreno.Text = "Terreno";
+            this.btnEditarTerreno.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // btnRegresarPropiedades
             // 
-            this.button12.Location = new System.Drawing.Point(492, 189);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(142, 22);
-            this.button12.TabIndex = 18;
-            this.button12.Text = "Salon de eventos";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnRegresarPropiedades.Location = new System.Drawing.Point(668, 351);
+            this.btnRegresarPropiedades.Name = "btnRegresarPropiedades";
+            this.btnRegresarPropiedades.Size = new System.Drawing.Size(120, 29);
+            this.btnRegresarPropiedades.TabIndex = 15;
+            this.btnRegresarPropiedades.Text = "Regresar";
+            this.btnRegresarPropiedades.UseVisualStyleBackColor = true;
+            this.btnRegresarPropiedades.Click += new System.EventHandler(this.btnRegresarPropiedades_Click);
             // 
             // Propiedades
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 252);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblInmobiliaria);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnTerrenos);
+            this.ClientSize = new System.Drawing.Size(812, 403);
+            this.Controls.Add(this.btnRegresarPropiedades);
+            this.Controls.Add(this.btnEditarSalonSocial);
+            this.Controls.Add(this.btnEditarFinca);
+            this.Controls.Add(this.btnEditarCasaApto);
+            this.Controls.Add(this.btnEditarTerreno);
+            this.Controls.Add(this.btnMostrarSalonSocial);
+            this.Controls.Add(this.btnMostrarFinca);
+            this.Controls.Add(this.btnMostrarCasaApto);
+            this.Controls.Add(this.btnMostrarTerreno);
+            this.Controls.Add(this.btnAgregarSalonSocial);
+            this.Controls.Add(this.btnAgregarFinca);
+            this.Controls.Add(this.btnAgregarCasaApto);
+            this.Controls.Add(this.btnAgregarTerreno);
+            this.Controls.Add(this.lblEditar);
+            this.Controls.Add(this.lblMostrar);
+            this.Controls.Add(this.lblAgregar);
             this.Name = "Propiedades";
             this.Text = "Propiedades";
             this.ResumeLayout(false);
@@ -243,21 +224,21 @@
 
         #endregion
 
-        private Button btnTerrenos;
-        private Button button1;
-        private Button button2;
-        private Button button4;
-        private Button button5;
-        private Label lblInmobiliaria;
-        private Label label1;
-        private Button button3;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Label label2;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
+        private Label lblAgregar;
+        private Label lblMostrar;
+        private Label lblEditar;
+        private Button btnAgregarTerreno;
+        private Button btnAgregarCasaApto;
+        private Button btnAgregarFinca;
+        private Button btnAgregarSalonSocial;
+        private Button btnMostrarSalonSocial;
+        private Button btnMostrarFinca;
+        private Button btnMostrarCasaApto;
+        private Button btnMostrarTerreno;
+        private Button btnEditarSalonSocial;
+        private Button btnEditarFinca;
+        private Button btnEditarCasaApto;
+        private Button btnEditarTerreno;
+        private Button btnRegresarPropiedades;
     }
 }

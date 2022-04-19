@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoPropiedadesCodigoLimpio
 {
-    internal class Terreno
+    public class Terreno
     {
         #region Atributos
 

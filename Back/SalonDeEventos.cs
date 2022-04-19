@@ -1,6 +1,6 @@
 ﻿namespace ProyectoPropiedadesCodigoLimpio
 {
-    internal class SalonDeEventos:Terreno
+    public class SalonDeEventos:Terreno
     {
         private int _baños;
 

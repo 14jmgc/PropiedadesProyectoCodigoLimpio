@@ -1,63 +1,22 @@
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.AssemblyReference.cache
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Principal.resources
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.GenerateResource.cache
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfoInputs.cache
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfo.cs
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.CoreCompileInputs.cache
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.exe
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.deps.json
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.runtimeconfig.json
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.dll
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\bin\Debug\net6.0-windows\ref\Interfaz.dll
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.pdb
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.dll
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\ref\Interfaz.dll
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.pdb
-C:\Users\juanm\Documents\Codigo limpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.genruntimeconfig.cache
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.AssemblyReference.cache
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Form1.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.GenerateResource.cache
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfoInputs.cache
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfo.cs
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.CoreCompileInputs.cache
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.exe
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.deps.json
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.runtimeconfig.json
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.dll
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\ref\Interfaz.dll
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.pdb
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.AssemblyReference.cache
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Principal.resources
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.GenerateResource.cache
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfoInputs.cache
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfo.cs
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.CoreCompileInputs.cache
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.dll
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\ref\Interfaz.dll
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.pdb
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.genruntimeconfig.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.exe
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.deps.json
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.runtimeconfig.json
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.dll
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\Interfaz.pdb
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.AssemblyReference.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Principal.resources
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.GenerateResource.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfoInputs.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.AssemblyInfo.cs
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.dll
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\refint\Interfaz.dll
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.pdb
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.genruntimeconfig.cache
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\ref\Interfaz.dll
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Terreno.resources
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Propiedades.resources
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Casas.resources
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Fincas.resources
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.SalonDeEventos.resources
-C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.MostrarTerreo.resources
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Casas.resources
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Fincas.resources
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.MostrarTerreo.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\ProyectoPropiedadesCodigoLimpio.exe
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\ProyectoPropiedadesCodigoLimpio.pdb
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\ProyectoPropiedadesCodigoLimpio.exe.config
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.CopyComplete
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Propiedades.resources
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.SalonDeEventos.resources
-C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Terreno.resources

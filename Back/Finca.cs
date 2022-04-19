@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoPropiedadesCodigoLimpio
 {
-    internal class Finca:Casa
+    public class Finca:Casa
     {
         private int _piscina;
         private int _tobogan;

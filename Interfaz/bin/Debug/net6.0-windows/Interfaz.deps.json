@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Interfaz/1.0.0": {
+        "dependencies": {
+          "Propiedades": "1.0.0"
+        },
         "runtime": {
           "Interfaz.dll": {}
+        }
+      },
+      "Propiedades/1.0.0": {
+        "runtime": {
+          "ProyectoPropiedadesCodigoLimpio.exe": {}
         }
       }
     }
   },
   "libraries": {
     "Interfaz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Propiedades/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
