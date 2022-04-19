@@ -1,20 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PropiedadesProyectoCodigoLimpio\\Interfaz\\Interfaz.csproj": {}
+    "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PropiedadesProyectoCodigoLimpio\\Interfaz\\Interfaz.csproj": {
+    "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj",
+        "projectName": "Propiedades",
+        "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PropiedadesProyectoCodigoLimpio\\Interfaz\\Interfaz.csproj",
+        "projectUniqueName": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj",
         "projectName": "Interfaz",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PropiedadesProyectoCodigoLimpio\\Interfaz\\Interfaz.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PropiedadesProyectoCodigoLimpio\\Interfaz\\obj\\",
+        "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj",
+        "packagesPath": "C:\\Users\\juanm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj": {
+                "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

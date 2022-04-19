@@ -55,3 +55,9 @@ C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Inte
 C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Fincas.resources
 C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.SalonDeEventos.resources
 C:\Users\Usuario\OneDrive\Documentos\GitHub\PropiedadesProyectoCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.MostrarTerreo.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Casas.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Fincas.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.MostrarTerreo.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Propiedades.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.SalonDeEventos.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Terreno.resources

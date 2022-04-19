@@ -28,215 +28,168 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDireccionTerreno = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textDirecion = new System.Windows.Forms.TextBox();
-            this.buttonDic = new System.Windows.Forms.Button();
-            this.textDueño = new System.Windows.Forms.TextBox();
-            this.buttonDue = new System.Windows.Forms.Button();
-            this.textNombre = new System.Windows.Forms.TextBox();
-            this.textPrecio = new System.Windows.Forms.TextBox();
-            this.textEstado = new System.Windows.Forms.TextBox();
-            this.textMetraje = new System.Windows.Forms.TextBox();
-            this.buttonNom = new System.Windows.Forms.Button();
-            this.buttonPre = new System.Windows.Forms.Button();
-            this.buttonEst = new System.Windows.Forms.Button();
-            this.buttonMetr = new System.Windows.Forms.Button();
+            this.lblPrecioTerreno = new System.Windows.Forms.Label();
+            this.lblNombreTerreno = new System.Windows.Forms.Label();
+            this.lblDueñoTerreno = new System.Windows.Forms.Label();
+            this.lblEstadoTerreno = new System.Windows.Forms.Label();
+            this.lblMetrajeTerreno = new System.Windows.Forms.Label();
+            this.txtDireccionTerreno = new System.Windows.Forms.TextBox();
+            this.btnAgregarTerreno = new System.Windows.Forms.Button();
+            this.txtDueñoTerreno = new System.Windows.Forms.TextBox();
+            this.txtNombreTerreno = new System.Windows.Forms.TextBox();
+            this.txtPrecioTerreno = new System.Windows.Forms.TextBox();
+            this.txtEstadoTerreno = new System.Windows.Forms.TextBox();
+            this.txtMetrajeTerreno = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblDireccionTerreno
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(87, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Direccion";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblDireccionTerreno.AutoSize = true;
+            this.lblDireccionTerreno.Location = new System.Drawing.Point(54, 51);
+            this.lblDireccionTerreno.Name = "lblDireccionTerreno";
+            this.lblDireccionTerreno.Size = new System.Drawing.Size(72, 20);
+            this.lblDireccionTerreno.TabIndex = 0;
+            this.lblDireccionTerreno.Text = "Direccion";
+            this.lblDireccionTerreno.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(713, 205);
+            this.button1.Location = new System.Drawing.Point(386, 193);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(86, 31);
             this.button1.TabIndex = 1;
             this.button1.Text = "Regresar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
+            // lblPrecioTerreno
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(87, 131);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Precio";
+            this.lblPrecioTerreno.AutoSize = true;
+            this.lblPrecioTerreno.Location = new System.Drawing.Point(54, 198);
+            this.lblPrecioTerreno.Name = "lblPrecioTerreno";
+            this.lblPrecioTerreno.Size = new System.Drawing.Size(50, 20);
+            this.lblPrecioTerreno.TabIndex = 2;
+            this.lblPrecioTerreno.Text = "Precio";
             // 
-            // label3
+            // lblNombreTerreno
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(444, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 15);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Nombre";
+            this.lblNombreTerreno.AutoSize = true;
+            this.lblNombreTerreno.Location = new System.Drawing.Point(54, 150);
+            this.lblNombreTerreno.Name = "lblNombreTerreno";
+            this.lblNombreTerreno.Size = new System.Drawing.Size(64, 20);
+            this.lblNombreTerreno.TabIndex = 3;
+            this.lblNombreTerreno.Text = "Nombre";
             // 
-            // label4
+            // lblDueñoTerreno
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(272, 38);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 15);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Dueño";
+            this.lblDueñoTerreno.AutoSize = true;
+            this.lblDueñoTerreno.Location = new System.Drawing.Point(54, 103);
+            this.lblDueñoTerreno.Name = "lblDueñoTerreno";
+            this.lblDueñoTerreno.Size = new System.Drawing.Size(53, 20);
+            this.lblDueñoTerreno.TabIndex = 4;
+            this.lblDueñoTerreno.Text = "Dueño";
             // 
-            // label5
+            // lblEstadoTerreno
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(272, 131);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 15);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Estado";
+            this.lblEstadoTerreno.AutoSize = true;
+            this.lblEstadoTerreno.Location = new System.Drawing.Point(54, 253);
+            this.lblEstadoTerreno.Name = "lblEstadoTerreno";
+            this.lblEstadoTerreno.Size = new System.Drawing.Size(54, 20);
+            this.lblEstadoTerreno.TabIndex = 5;
+            this.lblEstadoTerreno.Text = "Estado";
             // 
-            // label6
+            // lblMetrajeTerreno
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(448, 131);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 15);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Metraje";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.lblMetrajeTerreno.AutoSize = true;
+            this.lblMetrajeTerreno.Location = new System.Drawing.Point(54, 305);
+            this.lblMetrajeTerreno.Name = "lblMetrajeTerreno";
+            this.lblMetrajeTerreno.Size = new System.Drawing.Size(60, 20);
+            this.lblMetrajeTerreno.TabIndex = 6;
+            this.lblMetrajeTerreno.Text = "Metraje";
+            this.lblMetrajeTerreno.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textDirecion
+            // txtDireccionTerreno
             // 
-            this.textDirecion.Location = new System.Drawing.Point(87, 56);
-            this.textDirecion.Name = "textDirecion";
-            this.textDirecion.Size = new System.Drawing.Size(100, 23);
-            this.textDirecion.TabIndex = 7;
+            this.txtDireccionTerreno.Location = new System.Drawing.Point(155, 48);
+            this.txtDireccionTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDireccionTerreno.Name = "txtDireccionTerreno";
+            this.txtDireccionTerreno.Size = new System.Drawing.Size(114, 27);
+            this.txtDireccionTerreno.TabIndex = 7;
             // 
-            // buttonDic
+            // btnAgregarTerreno
             // 
-            this.buttonDic.Location = new System.Drawing.Point(87, 85);
-            this.buttonDic.Name = "buttonDic";
-            this.buttonDic.Size = new System.Drawing.Size(75, 23);
-            this.buttonDic.TabIndex = 8;
-            this.buttonDic.Text = "Aceptar";
-            this.buttonDic.UseVisualStyleBackColor = true;
-            this.buttonDic.Click += new System.EventHandler(this.buttonDic_Click);
+            this.btnAgregarTerreno.Location = new System.Drawing.Point(324, 143);
+            this.btnAgregarTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAgregarTerreno.Name = "btnAgregarTerreno";
+            this.btnAgregarTerreno.Size = new System.Drawing.Size(215, 31);
+            this.btnAgregarTerreno.TabIndex = 8;
+            this.btnAgregarTerreno.Text = "Agregar";
+            this.btnAgregarTerreno.UseVisualStyleBackColor = true;
+            this.btnAgregarTerreno.Click += new System.EventHandler(this.buttonDic_Click);
             // 
-            // textDueño
+            // txtDueñoTerreno
             // 
-            this.textDueño.Location = new System.Drawing.Point(272, 56);
-            this.textDueño.Name = "textDueño";
-            this.textDueño.Size = new System.Drawing.Size(100, 23);
-            this.textDueño.TabIndex = 9;
+            this.txtDueñoTerreno.Location = new System.Drawing.Point(155, 100);
+            this.txtDueñoTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDueñoTerreno.Name = "txtDueñoTerreno";
+            this.txtDueñoTerreno.Size = new System.Drawing.Size(114, 27);
+            this.txtDueñoTerreno.TabIndex = 9;
             // 
-            // buttonDue
+            // txtNombreTerreno
             // 
-            this.buttonDue.Location = new System.Drawing.Point(272, 85);
-            this.buttonDue.Name = "buttonDue";
-            this.buttonDue.Size = new System.Drawing.Size(75, 23);
-            this.buttonDue.TabIndex = 10;
-            this.buttonDue.Text = "Aceptar";
-            this.buttonDue.UseVisualStyleBackColor = true;
-            this.buttonDue.Click += new System.EventHandler(this.buttonDue_Click);
+            this.txtNombreTerreno.Location = new System.Drawing.Point(155, 147);
+            this.txtNombreTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNombreTerreno.Name = "txtNombreTerreno";
+            this.txtNombreTerreno.Size = new System.Drawing.Size(114, 27);
+            this.txtNombreTerreno.TabIndex = 11;
             // 
-            // textNombre
+            // txtPrecioTerreno
             // 
-            this.textNombre.Location = new System.Drawing.Point(444, 56);
-            this.textNombre.Name = "textNombre";
-            this.textNombre.Size = new System.Drawing.Size(100, 23);
-            this.textNombre.TabIndex = 11;
+            this.txtPrecioTerreno.Location = new System.Drawing.Point(155, 195);
+            this.txtPrecioTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPrecioTerreno.Name = "txtPrecioTerreno";
+            this.txtPrecioTerreno.Size = new System.Drawing.Size(114, 27);
+            this.txtPrecioTerreno.TabIndex = 12;
             // 
-            // textPrecio
+            // txtEstadoTerreno
             // 
-            this.textPrecio.Location = new System.Drawing.Point(87, 149);
-            this.textPrecio.Name = "textPrecio";
-            this.textPrecio.Size = new System.Drawing.Size(100, 23);
-            this.textPrecio.TabIndex = 12;
+            this.txtEstadoTerreno.Location = new System.Drawing.Point(155, 250);
+            this.txtEstadoTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtEstadoTerreno.Name = "txtEstadoTerreno";
+            this.txtEstadoTerreno.Size = new System.Drawing.Size(114, 27);
+            this.txtEstadoTerreno.TabIndex = 13;
             // 
-            // textEstado
+            // txtMetrajeTerreno
             // 
-            this.textEstado.Location = new System.Drawing.Point(272, 149);
-            this.textEstado.Name = "textEstado";
-            this.textEstado.Size = new System.Drawing.Size(100, 23);
-            this.textEstado.TabIndex = 13;
-            // 
-            // textMetraje
-            // 
-            this.textMetraje.Location = new System.Drawing.Point(444, 149);
-            this.textMetraje.Name = "textMetraje";
-            this.textMetraje.Size = new System.Drawing.Size(100, 23);
-            this.textMetraje.TabIndex = 14;
-            // 
-            // buttonNom
-            // 
-            this.buttonNom.Location = new System.Drawing.Point(444, 85);
-            this.buttonNom.Name = "buttonNom";
-            this.buttonNom.Size = new System.Drawing.Size(75, 23);
-            this.buttonNom.TabIndex = 15;
-            this.buttonNom.Text = "Aceptar";
-            this.buttonNom.UseVisualStyleBackColor = true;
-            // 
-            // buttonPre
-            // 
-            this.buttonPre.Location = new System.Drawing.Point(87, 178);
-            this.buttonPre.Name = "buttonPre";
-            this.buttonPre.Size = new System.Drawing.Size(75, 23);
-            this.buttonPre.TabIndex = 16;
-            this.buttonPre.Text = "Aceptar";
-            this.buttonPre.UseVisualStyleBackColor = true;
-            // 
-            // buttonEst
-            // 
-            this.buttonEst.Location = new System.Drawing.Point(272, 178);
-            this.buttonEst.Name = "buttonEst";
-            this.buttonEst.Size = new System.Drawing.Size(75, 23);
-            this.buttonEst.TabIndex = 17;
-            this.buttonEst.Text = "Aceptar";
-            this.buttonEst.UseVisualStyleBackColor = true;
-            // 
-            // buttonMetr
-            // 
-            this.buttonMetr.Location = new System.Drawing.Point(444, 178);
-            this.buttonMetr.Name = "buttonMetr";
-            this.buttonMetr.Size = new System.Drawing.Size(75, 23);
-            this.buttonMetr.TabIndex = 18;
-            this.buttonMetr.Text = "Aceptar";
-            this.buttonMetr.UseVisualStyleBackColor = true;
+            this.txtMetrajeTerreno.Location = new System.Drawing.Point(155, 305);
+            this.txtMetrajeTerreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMetrajeTerreno.Name = "txtMetrajeTerreno";
+            this.txtMetrajeTerreno.Size = new System.Drawing.Size(114, 27);
+            this.txtMetrajeTerreno.TabIndex = 14;
             // 
             // Terreno
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 269);
-            this.Controls.Add(this.buttonMetr);
-            this.Controls.Add(this.buttonEst);
-            this.Controls.Add(this.buttonPre);
-            this.Controls.Add(this.buttonNom);
-            this.Controls.Add(this.textMetraje);
-            this.Controls.Add(this.textEstado);
-            this.Controls.Add(this.textPrecio);
-            this.Controls.Add(this.textNombre);
-            this.Controls.Add(this.buttonDue);
-            this.Controls.Add(this.textDueño);
-            this.Controls.Add(this.buttonDic);
-            this.Controls.Add(this.textDirecion);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(605, 404);
+            this.Controls.Add(this.txtMetrajeTerreno);
+            this.Controls.Add(this.txtEstadoTerreno);
+            this.Controls.Add(this.txtPrecioTerreno);
+            this.Controls.Add(this.txtNombreTerreno);
+            this.Controls.Add(this.txtDueñoTerreno);
+            this.Controls.Add(this.btnAgregarTerreno);
+            this.Controls.Add(this.txtDireccionTerreno);
+            this.Controls.Add(this.lblMetrajeTerreno);
+            this.Controls.Add(this.lblEstadoTerreno);
+            this.Controls.Add(this.lblDueñoTerreno);
+            this.Controls.Add(this.lblNombreTerreno);
+            this.Controls.Add(this.lblPrecioTerreno);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblDireccionTerreno);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Terreno";
             this.Text = "Terreno";
             this.ResumeLayout(false);
@@ -246,24 +199,19 @@
 
         #endregion
 
-        private Label label1;
+        private Label lblDireccionTerreno;
         private Button button1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private TextBox textDirecion;
-        private Button buttonDic;
-        private TextBox textDueño;
-        private Button buttonDue;
-        private TextBox textNombre;
-        private TextBox textPrecio;
-        private TextBox textEstado;
-        private TextBox textMetraje;
-        private Button buttonNom;
-        private Button buttonPre;
-        private Button buttonEst;
-        private Button buttonMetr;
+        private Label lblPrecioTerreno;
+        private Label lblNombreTerreno;
+        private Label lblDueñoTerreno;
+        private Label lblEstadoTerreno;
+        private Label lblMetrajeTerreno;
+        private TextBox txtDireccionTerreno;
+        private Button btnAgregarTerreno;
+        private TextBox txtDueñoTerreno;
+        private TextBox txtNombreTerreno;
+        private TextBox txtPrecioTerreno;
+        private TextBox txtEstadoTerreno;
+        private TextBox txtMetrajeTerreno;
     }
 }
