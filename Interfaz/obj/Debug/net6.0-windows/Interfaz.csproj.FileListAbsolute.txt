@@ -20,3 +20,4 @@ C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\bin\Debug\net6.0-windows\ProyectoPropiedadesCodigoLimpio.exe.config
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.csproj.CopyComplete
 C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.Propiedades.resources
+C:\Users\juanm\Documents\Codigo limpio\ProyectoPropiedadesCodigoLimpio\Interfaz\obj\Debug\net6.0-windows\Interfaz.agregarTerreno.resources

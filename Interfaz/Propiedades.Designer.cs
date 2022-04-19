@@ -52,7 +52,7 @@
             this.lblAgregar.Font = new System.Drawing.Font("Bernard MT Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblAgregar.Location = new System.Drawing.Point(64, 58);
             this.lblAgregar.Name = "lblAgregar";
-            this.lblAgregar.Size = new System.Drawing.Size(120, 40);
+            this.lblAgregar.Size = new System.Drawing.Size(120, 39);
             this.lblAgregar.TabIndex = 0;
             this.lblAgregar.Text = "Agregar";
             // 
@@ -62,7 +62,7 @@
             this.lblMostrar.Font = new System.Drawing.Font("Bernard MT Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblMostrar.Location = new System.Drawing.Point(297, 58);
             this.lblMostrar.Name = "lblMostrar";
-            this.lblMostrar.Size = new System.Drawing.Size(113, 40);
+            this.lblMostrar.Size = new System.Drawing.Size(112, 39);
             this.lblMostrar.TabIndex = 1;
             this.lblMostrar.Text = "Mostrar";
             // 
@@ -72,7 +72,7 @@
             this.lblEditar.Font = new System.Drawing.Font("Bernard MT Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblEditar.Location = new System.Drawing.Point(580, 58);
             this.lblEditar.Name = "lblEditar";
-            this.lblEditar.Size = new System.Drawing.Size(93, 40);
+            this.lblEditar.Size = new System.Drawing.Size(92, 39);
             this.lblEditar.TabIndex = 2;
             this.lblEditar.Text = "Editar";
             // 
@@ -84,6 +84,7 @@
             this.btnAgregarTerreno.TabIndex = 3;
             this.btnAgregarTerreno.Text = "Terreno";
             this.btnAgregarTerreno.UseVisualStyleBackColor = true;
+            this.btnAgregarTerreno.Click += new System.EventHandler(this.btnAgregarTerreno_Click);
             // 
             // btnAgregarCasaApto
             // 

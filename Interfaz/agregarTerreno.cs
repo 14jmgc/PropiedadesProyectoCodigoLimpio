@@ -32,6 +32,8 @@ namespace Interfaz
             nuevoTerreno.Precio = txtPrecioTerreno.Text;
             nuevoTerreno.Estado = txtEstadoTerreno.Text;
             nuevoTerreno.Metraje = txtMetrajeTerreno.Text;
+            MessageBox.Show("Terreno agregado");
+            this.Close();
 
         }
     }

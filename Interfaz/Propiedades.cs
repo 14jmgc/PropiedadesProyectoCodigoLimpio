@@ -21,5 +21,12 @@ namespace Interfaz
         {
             this.Close();
         }
+
+        private void btnAgregarTerreno_Click(object sender, EventArgs e)
+        {
+            agregarTerreno nuevoTerreno = new agregarTerreno();
+            nuevoTerreno.Show();
+
+        }
     }
 }
