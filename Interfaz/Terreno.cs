@@ -41,9 +41,7 @@ namespace Interfaz
 
         private void buttonDue_Click(object sender, EventArgs e)
         {
-            String dueño = textDueño.Text;
-            MostrarTerreo mt = new MostrarTerreo(dueño);
-            mt.Show();
+
         }
     }
 }

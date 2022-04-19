@@ -17,15 +17,13 @@ namespace Interfaz
             InitializeComponent();
 
         }
-        public MostrarTerreo(String textDirecion, String textDueño)
+        public MostrarTerreo(String text)
         {
             InitializeComponent();
-            labelDirec.Text = textDirecion;
-            labelDue.Text = textDueño;
-            labelNom.Text = text;
-            labelPre.Text = text;
-        }
+            labelDirec.Text = text;
 
+        }
+ 
         private void label1_Click(object sender, EventArgs e)
         {
 
