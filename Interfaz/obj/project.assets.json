@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Propiedades/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Propiedades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Propiedades.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Propiedades/1.0.0": {
+      "type": "project",
+      "path": "../Back/Propiedades.csproj",
+      "msbuildProject": "../Back/Propiedades.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Propiedades >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\juanm\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj": {
+              "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

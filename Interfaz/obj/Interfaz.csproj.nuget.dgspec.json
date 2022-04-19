@@ -4,6 +4,21 @@
     "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj": {}
   },
   "projects": {
+    "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj",
+        "projectName": "Propiedades",
+        "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Interfaz\\Interfaz.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj": {
+                "projectPath": "C:\\Users\\juanm\\Documents\\Codigo limpio\\ProyectoPropiedadesCodigoLimpio\\Back\\Propiedades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

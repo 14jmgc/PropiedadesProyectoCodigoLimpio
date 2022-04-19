@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using 
 
 namespace Interfaz
 {
@@ -24,7 +25,7 @@ namespace Interfaz
 
         private void btnAgregarTerreno_Click(object sender, EventArgs e)
         {
-            listaTerrenos.Add(new Terreno0())
+            listaTerrenos.Add(new Terreno())
             Terreno nuevoTerreno = new Terreno();
             nuevoTerreno.Direccion = txtDireccionTerreno
             MostrarTerreno mt = new MostrarTerreo(direccion);
