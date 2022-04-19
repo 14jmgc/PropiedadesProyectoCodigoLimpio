@@ -21,7 +21,6 @@ namespace Interfaz
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hasta la proxima :)");
             Application.Exit();
         }
 

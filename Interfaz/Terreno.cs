@@ -17,25 +17,17 @@ namespace Interfaz
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void btnAgregarTerreno_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void buttonDic_Click(object sender, EventArgs e)
-        {
-            String direccion = textDirecion.Text;
-            MostrarTerreo mt = new MostrarTerreo(direccion);
+            listaTerrenos.Add(new Terreno0())
+            Terreno nuevoTerreno = new Terreno();
+            nuevoTerreno.Direccion = txtDireccionTerreno
+            MostrarTerreno mt = new MostrarTerreo(direccion);
             mt.Show();
         }
 
